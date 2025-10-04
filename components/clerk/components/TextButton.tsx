@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   },
   switchModeText: {
     fontSize: 16,
-    color: "#5e41f7",
+    color: "#007AFF",
     fontWeight: "500",
   }
 });

@@ -15,7 +15,7 @@ export function Button({ children, variant = "primary", ...props }: Props) {
     >
       {variant === "secondary" ? (
         <LinearGradient
-          colors={['#6d53f8', '#5c40f7']}
+          colors={['#5AC8FA', '#007AFF']}
           start={{ x: 0, y: 0 }}
           end={{ x: 0, y: 1 }}
           style={styles.secondaryWrapper}
