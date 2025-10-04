@@ -1,10 +1,11 @@
-import SignIn from "@/components/clerk/SignIn";
+
+import SignUp from "@/components/clerk/SignUp";
 
 export default function SignUpScreen() {
     return (
-        <SignIn 
-        signUpUrl="/"
-           scheme="zenly"
-        />
+      <SignUp 
+      signInUrl="/"
+      homeUrl="(protected)"
+      />
     )
 }

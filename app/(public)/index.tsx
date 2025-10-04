@@ -5,6 +5,7 @@ export default function Index() {
    <SignIn
    signUpUrl="/sign-up"
    scheme="zenly"
+   homeUrl="(protected)"
    />
   );
 }
