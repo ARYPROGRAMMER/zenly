@@ -4,6 +4,7 @@ export default function SignUpScreen() {
     return (
         <SignIn 
         signUpUrl="/"
+           scheme="zenly"
         />
     )
 }
